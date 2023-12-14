@@ -20,7 +20,7 @@ app.use(express.json());
 
 //connect your mongodb with your node app
 // mongoose.connect() takes 2 arguments : 1. which db to connect to(db url) 2. connnection options
-mongoose.connect("mongodb+srv://ritu1298verma:Ritans2903@cluster0.3jrsa6a.mongodb.net/?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://username:password@cluster0.3jrsa6a.mongodb.net/?retryWrites=true&w=majority",
 )
 
 .then((x) =>{
